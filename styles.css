@@ -1,15 +1,20 @@
 * {
     background-color: blue;
 
+
 }
 
 .box-1 {
+    box-sizing: content-box;
+    /*~content box is the default value when  there is no 
+    other css rule added to the page*/
     height: 300px;
     width: 700px;
     background-color: aliceblue;
 }
 
 .box-2 {
+    box-sizing: border-box;
     height: 300px;
     width: 700px;
     background-color: greenyellow;
