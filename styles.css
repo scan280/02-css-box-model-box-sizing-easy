@@ -1,3 +1,10 @@
 * {
     background-color: blue;
+
+}
+
+.box-1 {
+    height: 300px;
+    width: 700px;
+    background-color: aliceblue;
 }
