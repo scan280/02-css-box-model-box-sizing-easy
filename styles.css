@@ -1,4 +1,17 @@
-* {
+html {
+    box-sizing: border-box;
+    background-color: blue;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+/*The best way to have all your elements inherit
+the box sizing property is by using the above code snippet*/
+
+ /*  * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -11,9 +24,11 @@
     to the border
     
     Margin is not part of the element so we don't include
-    it in the box sizes*/
+    it in the box sizes
+}   
+*/
+ 
 
-}
 
 .box-1 {
     box-sizing: content-box;
