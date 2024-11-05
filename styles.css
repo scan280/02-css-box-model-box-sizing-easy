@@ -8,7 +8,10 @@
     with 0px and the border box to select all elements.
 
     We call it the border box because the height is in relation
-    to the border*/
+    to the border
+    
+    Margin is not part of the element so we don't include
+    it in the box sizes*/
 
 }
 
@@ -41,6 +44,7 @@
     that has the content reduces by  (30*2) for height
      and (30*2) for the width, total size of the full box
      remained the same*/
+    
     background-color: greenyellow;
     
 }
