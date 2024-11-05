@@ -1,6 +1,14 @@
 * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     background-color: blue;
 
+    /*As a best practice we add the margin and padding
+    with 0px and the border box to select all elements.
+
+    We call it the border box because the height is in relation
+    to the border*/
 
 }
 
