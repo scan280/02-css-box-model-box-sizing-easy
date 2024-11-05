@@ -10,9 +10,12 @@
     other css rule added to the page*/
     /*After adding padding the box increases by  (50*2) for height
      and (50*2) for the width*/
+     /*After adding the border the box increases by  (30*2) for height
+     and (30*2) for the width*/
     height: 300px;
     width: 700px;
     padding: 50px;
+    border: 30px solid black;
     background-color: aliceblue;
 }
 
@@ -21,9 +24,14 @@
     height: 300px;
     width: 700px;
     padding: 50px;
+    border: 30px solid black;
     /*After adding padding the small box inside 
     that has the content reduces by  (50*2) for height
      and (50*2) for the width, total size of the full box
+     remained the same*/
+     /*After adding border the small box inside 
+    that has the content reduces by  (30*2) for height
+     and (30*2) for the width, total size of the full box
      remained the same*/
     background-color: greenyellow;
     
