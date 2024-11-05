@@ -8,8 +8,11 @@
     box-sizing: content-box;
     /*~content box is the default value when  there is no 
     other css rule added to the page*/
+    /*After adding padding the box increases by  (50*2) for height
+     and (50*2) for the width*/
     height: 300px;
     width: 700px;
+    padding: 50px;
     background-color: aliceblue;
 }
 
@@ -17,5 +20,11 @@
     box-sizing: border-box;
     height: 300px;
     width: 700px;
+    padding: 50px;
+    /*After adding padding the small box inside 
+    that has the content reduces by  (50*2) for height
+     and (50*2) for the width, total size of the full box
+     remained the same*/
     background-color: greenyellow;
+    
 }
